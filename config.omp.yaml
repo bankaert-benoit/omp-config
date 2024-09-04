@@ -42,13 +42,13 @@ blocks:
         properties:
           display_mode: always
         style: powerline
-        template: " {{ .Full }} "
+        template: "  {{ .Full }} "
         type: node
       # Angular 
       - background: p:red
         foreground: p:white
         powerline_symbol: 
-        template: " {{ .Full }} "
+        template: "  {{ .Full }} "
         style: powerline
         type: angular
       # Firebase 
