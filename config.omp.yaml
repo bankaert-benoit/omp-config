@@ -35,6 +35,13 @@ blocks:
         style: powerline
         template: " {{ .Output }} "
         type: command
+      # React
+      - background: p:blue
+        foreground: p:white
+        powerline_symbol: 
+        template: " 󰏢 {{ .Full }} "
+        style: powerline
+        type: react
       # Node version
       - background: p:green
         foreground: p:white
